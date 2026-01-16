@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Twiasun</title><link>https://example.com/post/</link><description>Recent content in Posts on Twiasun</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Twiasun</copyright><lastBuildDate>Fri, 16 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello,Hugo</title><link>https://example.com/p/hellohugo/</link><pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate><guid>https://example.com/p/hellohugo/</guid><description>&lt;img src="https://example.com/p/hellohugo/draw.png" alt="Featured image of post Hello,Hugo" /&gt;&lt;h2 id="第一次搭建个人博客"&gt;第一次搭建个人博客
+&lt;/h2&gt;&lt;p&gt;学习了”四大件“，也在leetcode上刷过题，可是在所谓的做项目时却又觉得无从下手。想着要做项目却对要实现什么、怎么实现感到很空泛，又觉得学习过程很漫长。&lt;/p&gt;
+&lt;h2 id="要不就做个博客吧"&gt;要不就做个博客吧
+&lt;/h2&gt;&lt;p&gt;我想，记录一下自己总是可以吧，于是就先中断了“怎么去做WebServer”，跑到B站上敲两个字“博客”。&lt;/p&gt;
+&lt;p&gt;说真的，博客到底是什么，最开始我也不太了解。我记得百科上说是“网络日志”，按照以往看过的博客来说，更像是博主为主体的论坛，只是用户的戏份少甚至没有，这么说的确是“网络日志”，只是成为了Web分享的空间。&lt;/p&gt;
+&lt;p&gt;感谢
+&lt;a class="link" href="https://www.bilibili.com/video/BV1qD4y1z783/?share_source=copy_web&amp;amp;vd_source=8cfdd94362d2a9fcc33ead957bf0362a" target="_blank" rel="noopener"
+&gt;超详细的个人博客搭建教程（无需服务器）- 从原理到实践手把手带你搭建属于自己的个人博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.bilibili.com/video/BV1bovfeaEtQ/?p=3&amp;amp;share_source=copy_web&amp;amp;vd_source=8cfdd94362d2a9fcc33ead957bf0362a" target="_blank" rel="noopener"
+&gt;【雷】Hugo + Github免费搭建博客，并实现自动化部署&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我理解了框架是什么（有了感知就不再那么空泛了）、博客怎么去搭建、搭建博客的框架改如何使用。真切地体会到了有意义的行动（虽然没什么难度）。&lt;/p&gt;
+&lt;h2 id="hello-hugo"&gt;Hello, Hugo
+&lt;/h2&gt;&lt;p&gt;最后选择了框架Hugo，理由如下：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;维度&lt;/th&gt;
+&lt;th&gt;Hexo&lt;/th&gt;
+&lt;th&gt;Hugo&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;实现语言&lt;/td&gt;
+&lt;td&gt;Node.js (JavaScript)&lt;/td&gt;
+&lt;td&gt;Go&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;生成速度&lt;/td&gt;
+&lt;td&gt;慢（文章多会明显变慢）&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;极快&lt;/strong&gt;（几百篇毫秒级）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;安装成本&lt;/td&gt;
+&lt;td&gt;需要 Node 环境&lt;/td&gt;
+&lt;td&gt;单个二进制文件即可&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;主题数量&lt;/td&gt;
+&lt;td&gt;非常多&lt;/td&gt;
+&lt;td&gt;多，但偏工程风&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;插件生态&lt;/td&gt;
+&lt;td&gt;npm 插件非常多&lt;/td&gt;
+&lt;td&gt;功能多内置，插件较少&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;配置风格&lt;/td&gt;
+&lt;td&gt;JS + YAML&lt;/td&gt;
+&lt;td&gt;纯配置 + 模板&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;模板语言&lt;/td&gt;
+&lt;td&gt;EJS / Pug / Nunjucks 等&lt;/td&gt;
+&lt;td&gt;Go Template（学习成本高点）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;稳定性&lt;/td&gt;
+&lt;td&gt;插件多=可能踩坑&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;非常稳定&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;工程气质&lt;/td&gt;
+&lt;td&gt;前端风&lt;/td&gt;
+&lt;td&gt;后端/系统风&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;信息来源：chatgpt&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;说起来是因为Go语言也是编译型语言，所以下载了hugo就能使用了（虽然不是很理解Java为什么非要依赖jvm，尽管我也不会Java）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;完成面向web的个人博客分为四大部分：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;框架构建博客文件&lt;/li&gt;
+&lt;li&gt;平台托管文件&lt;/li&gt;
+&lt;li&gt;站点部署&lt;/li&gt;
+&lt;li&gt;CDN加速&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;ps：Hugo太方便了&lt;/p&gt;</description></item></channel></rss>
