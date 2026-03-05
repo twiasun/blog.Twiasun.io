@@ -6,7 +6,7 @@
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; XXX
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new site filename
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new site FILENAME
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id="本地启动"&gt;本地启动
@@ -16,12 +16,20 @@
 &lt;/span&gt;&lt;span class="lnt"&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; XXX/filename
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; XXX/FILENAME
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo server -D
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=""&gt;
-&lt;/h2&gt;</description></item><item><title>Hello,Hugo</title><link>https://twiasun.github.io/blog.Twiasun.io/p/hellohugo/</link><pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate><guid>https://twiasun.github.io/blog.Twiasun.io/p/hellohugo/</guid><description>&lt;img src="https://twiasun.github.io/blog.Twiasun.io/p/hellohugo/draw.png" alt="Featured image of post Hello,Hugo" /&gt;&lt;h2 id="第一次搭建个人博客"&gt;第一次搭建个人博客
+&lt;/div&gt;&lt;h2 id="创建新post"&gt;创建新post
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new content post/POSTNAME/index.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Hello,Hugo</title><link>https://twiasun.github.io/blog.Twiasun.io/p/hellohugo/</link><pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate><guid>https://twiasun.github.io/blog.Twiasun.io/p/hellohugo/</guid><description>&lt;img src="https://twiasun.github.io/blog.Twiasun.io/p/hellohugo/draw.png" alt="Featured image of post Hello,Hugo" /&gt;&lt;h2 id="第一次搭建个人博客"&gt;第一次搭建个人博客
 &lt;/h2&gt;&lt;p&gt;学习了”四大件“，也在leetcode上刷过题，可是在所谓的做项目时却又觉得无从下手。想着要做项目却对要实现什么、怎么实现感到很空泛，又觉得学习过程很漫长。&lt;/p&gt;
 &lt;h2 id="要不就做个博客吧"&gt;要不就做个博客吧
 &lt;/h2&gt;&lt;p&gt;我想，记录一下自己总是可以吧，于是就先中断了“怎么去做WebServer”，跑到B站上敲两个字“博客”。&lt;/p&gt;

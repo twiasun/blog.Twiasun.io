@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Twiasun</title><link>https://twiasun.github.io/blog.Twiasun.io/post/</link><description>Recent content in Posts on Twiasun</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Twiasun</copyright><lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://twiasun.github.io/blog.Twiasun.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>使用Hugo搭建Blog</title><link>https://twiasun.github.io/blog.Twiasun.io/p/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BAblog/</link><pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate><guid>https://twiasun.github.io/blog.Twiasun.io/p/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BAblog/</guid><description>&lt;img src="https://twiasun.github.io/blog.Twiasun.io/p/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BAblog/hugo-blog.png" alt="Featured image of post 使用Hugo搭建Blog" /&gt;&lt;h2 id="搭建个人博客"&gt;搭建个人博客
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Twiasun</title><link>https://twiasun.github.io/blog.Twiasun.io/post/</link><description>Recent content in Posts on Twiasun</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Twiasun</copyright><lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://twiasun.github.io/blog.Twiasun.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Leetcode Index</title><link>https://twiasun.github.io/blog.Twiasun.io/p/leetcode-index/</link><pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate><guid>https://twiasun.github.io/blog.Twiasun.io/p/leetcode-index/</guid><description>&lt;img src="https://twiasun.github.io/blog.Twiasun.io/p/leetcode-index/index.png" alt="Featured image of post Leetcode Index" /&gt;&lt;h2 id="哈希"&gt;哈希
+&lt;/h2&gt;&lt;h3 id="两数之和"&gt;两数之和
+&lt;/h3&gt;&lt;p&gt;你可以为你的博客写一个 &lt;strong&gt;通用的 LeetCode Hot100 解题记录模板文件&lt;/strong&gt;。
+LeetCode 的 &lt;strong&gt;Hot100 题单&lt;/strong&gt;是最常见的算法训练路线之一，共 100 道高频题目，覆盖数组、哈希、链表、动态规划、图等经典算法结构 ([力扣 LeetCode][1])。&lt;/p&gt;
+&lt;p&gt;我给你设计一个 &lt;strong&gt;非常适合长期记录 + 后续复习 + 博客展示&lt;/strong&gt; 的 Markdown 文件结构。你只需要不断往里面补充题解即可。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id="leetcode-专题"&gt;LeetCode 专题
+&lt;/h1&gt;&lt;p&gt;这里整理我在算法学习过程中的题解与总结。&lt;/p&gt;
+&lt;p&gt;LeetCode 是计算机算法训练的重要平台，通过系统刷题可以逐步掌握常见的数据结构与算法思想，例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;哈希表&lt;/li&gt;
+&lt;li&gt;双指针&lt;/li&gt;
+&lt;li&gt;滑动窗口&lt;/li&gt;
+&lt;li&gt;栈与队列&lt;/li&gt;
+&lt;li&gt;链表&lt;/li&gt;
+&lt;li&gt;二叉树&lt;/li&gt;
+&lt;li&gt;图&lt;/li&gt;
+&lt;li&gt;动态规划&lt;/li&gt;
+&lt;li&gt;回溯&lt;/li&gt;
+&lt;li&gt;贪心&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本专题按照 &lt;strong&gt;题单（Study Plan）&lt;/strong&gt; 进行整理。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="题单"&gt;题单
+&lt;/h2&gt;&lt;h3 id="leetcode-hot100"&gt;LeetCode Hot100
+&lt;/h3&gt;&lt;p&gt;最经典的算法题单之一，涵盖最常见的算法模型。&lt;/p&gt;
+&lt;p&gt;→ [LeetCode Hot100](.→ &lt;a class="link" href="https://twiasun.github.io/blog.Twiasun.io/post/leetcode/hot100/" &gt;LeetCode Hot100&lt;/a&gt;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="google-面试题单"&gt;Google 面试题单
+&lt;/h3&gt;&lt;p&gt;整理 Google 常见算法面试题。&lt;/p&gt;
+&lt;p&gt;→ &lt;a class="link" href="./leetcode-google/" &gt;LeetCode Google&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="华为机试"&gt;华为机试
+&lt;/h3&gt;&lt;p&gt;记录华为机试相关题目。&lt;/p&gt;
+&lt;p&gt;→ &lt;a class="link" href="./leetcode-hw/" &gt;LeetCode HW&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="学习目标"&gt;学习目标
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;系统掌握常见算法题型&lt;/li&gt;
+&lt;li&gt;建立算法模板与思维模型&lt;/li&gt;
+&lt;li&gt;提高算法面试能力&lt;/li&gt;
+&lt;li&gt;构建长期维护的算法知识库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="说明"&gt;说明
+&lt;/h2&gt;&lt;p&gt;所有题解主要使用 &lt;strong&gt;C++&lt;/strong&gt; 实现，并包含：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;解题思路&lt;/li&gt;
+&lt;li&gt;代码实现&lt;/li&gt;
+&lt;li&gt;时间复杂度分析&lt;/li&gt;
+&lt;li&gt;易错点总结&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>使用Hugo搭建Blog</title><link>https://twiasun.github.io/blog.Twiasun.io/p/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BAblog/</link><pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate><guid>https://twiasun.github.io/blog.Twiasun.io/p/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BAblog/</guid><description>&lt;img src="https://twiasun.github.io/blog.Twiasun.io/p/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BAblog/hugo-blog.png" alt="Featured image of post 使用Hugo搭建Blog" /&gt;&lt;h2 id="搭建个人博客"&gt;搭建个人博客
 &lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
@@ -6,7 +57,7 @@
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; XXX
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new site filename
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new site FILENAME
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id="本地启动"&gt;本地启动
@@ -16,12 +67,20 @@
 &lt;/span&gt;&lt;span class="lnt"&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; XXX/filename
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; XXX/FILENAME
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo server -D
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=""&gt;
-&lt;/h2&gt;</description></item><item><title>Hello,Hugo</title><link>https://twiasun.github.io/blog.Twiasun.io/p/hellohugo/</link><pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate><guid>https://twiasun.github.io/blog.Twiasun.io/p/hellohugo/</guid><description>&lt;img src="https://twiasun.github.io/blog.Twiasun.io/p/hellohugo/draw.png" alt="Featured image of post Hello,Hugo" /&gt;&lt;h2 id="第一次搭建个人博客"&gt;第一次搭建个人博客
+&lt;/div&gt;&lt;h2 id="创建新post"&gt;创建新post
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new content post/POSTNAME/index.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Hello,Hugo</title><link>https://twiasun.github.io/blog.Twiasun.io/p/hellohugo/</link><pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate><guid>https://twiasun.github.io/blog.Twiasun.io/p/hellohugo/</guid><description>&lt;img src="https://twiasun.github.io/blog.Twiasun.io/p/hellohugo/draw.png" alt="Featured image of post Hello,Hugo" /&gt;&lt;h2 id="第一次搭建个人博客"&gt;第一次搭建个人博客
 &lt;/h2&gt;&lt;p&gt;学习了”四大件“，也在leetcode上刷过题，可是在所谓的做项目时却又觉得无从下手。想着要做项目却对要实现什么、怎么实现感到很空泛，又觉得学习过程很漫长。&lt;/p&gt;
 &lt;h2 id="要不就做个博客吧"&gt;要不就做个博客吧
 &lt;/h2&gt;&lt;p&gt;我想，记录一下自己总是可以吧，于是就先中断了“怎么去做WebServer”，跑到B站上敲两个字“博客”。&lt;/p&gt;
