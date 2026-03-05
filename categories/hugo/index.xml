@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Twiasun</title><link>https://twiasun.github.io/blog.Twiasun.io/categories/hugo/</link><description>Recent content in Hugo on Twiasun</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Twiasun</copyright><lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://twiasun.github.io/blog.Twiasun.io/categories/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>使用Hugo搭建Blog</title><link>https://twiasun.github.io/blog.Twiasun.io/p/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BAblog/</link><pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate><guid>https://twiasun.github.io/blog.Twiasun.io/p/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BAblog/</guid><description>&lt;img src="https://twiasun.github.io/blog.Twiasun.io/p/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BAblog/hugo-blog.png" alt="Featured image of post 使用Hugo搭建Blog" /&gt;&lt;h2 id="搭建个人博客"&gt;搭建个人博客
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; XXX
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new site filename
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="本地启动"&gt;本地启动
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; XXX/filename
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=""&gt;
+&lt;/h2&gt;</description></item></channel></rss>
